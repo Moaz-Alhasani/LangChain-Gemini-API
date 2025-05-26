@@ -29,7 +29,6 @@ pip install -q sentence_transformers
 pip install -q langchain-chroma
 ```
 ## ⚠️ Quota Limits (Important!)
-```bash
 If you get an error like:
 
 makefile
@@ -45,10 +44,10 @@ Use a lighter model (gemini-pro)
 Upgrade your billing plan: https://console.cloud.google.com/
 
 Read Gemini quota docs: https://ai.google.dev/gemini-api/docs/rate-limits
-```
+
 
 ## 📌 Credits
-```bash
+
 LangChain
 
 Google Gemini API
@@ -56,4 +55,4 @@ Google Gemini API
 ChromaDB
 
 LangChain Community Loaders
-```
+
