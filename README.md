@@ -29,30 +29,24 @@ pip install -q sentence_transformers
 pip install -q langchain-chroma
 ```
 ## ⚠️ Quota Limits (Important!)
+
 If you get an error like:
 
-makefile
-Copy
-Edit
-ResourceExhausted: 429 You exceeded your current quota...
-You have exceeded your free-tier quota. You can:
 
-Wait until the quota resets (usually every 24 hours)
+It means you have exceeded your **free-tier quota**. You can try the following options:
 
-Use a lighter model (gemini-pro)
+- ⏳ **Wait** until the quota resets (usually every 24 hours).
+- 🪶 Use a **lighter model**, such as `gemini-pro`.
+- 💳 **Upgrade your billing plan** via [Google Cloud Console](https://console.cloud.google.com/).
+- 📚 Read the [Gemini API Quota Documentation](https://ai.google.dev/gemini-api/docs/rate-limits) for more details.
 
-Upgrade your billing plan: https://console.cloud.google.com/
-
-Read Gemini quota docs: https://ai.google.dev/gemini-api/docs/rate-limits
-
+---
 
 ## 📌 Credits
 
-LangChain
+- 🔗 [LangChain](https://www.langchain.com/)
+- 🔗 [Google Gemini API](https://ai.google.dev/)
+- 🔗 [ChromaDB](https://www.trychroma.com/)
+- 🔗 [LangChain Community Loaders](https://docs.langchain.com/docs/modules/data_connection/document_loaders/)
 
-Google Gemini API
-
-ChromaDB
-
-LangChain Community Loaders
 
